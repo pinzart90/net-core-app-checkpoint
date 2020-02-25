@@ -23,9 +23,21 @@ namespace MyFirstApp
             ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
             configurationBuilder.AddInMemoryCollection(DefaultConfigurationStrings);
             configurationBuilder.AddJsonFile("appsettings.json");
+
+            int inMemWidth = 70;
+            int inMemHeight = 50;
+
+            configurationBuilder.AddInMemoryCollection(new Dictionary<string, string>()
+            {
+                ["Custom:Width"] = inMemWidth.ToString(),
+                ["Custom:Height"] = inMemHeight.ToString()
+            });
+
             Configuration = configurationBuilder.Build();
 
-            Console.SetWindowSize(Int32.Parse(Configuration["AppConfiguration:MainWindow:Width"]), Int32.Parse(Configuration["AppConfiguration:MainWindow:Height"]));
+ 
+
+            Console.SetWindowSize(Int32.Parse(Configuration["Custom:Width"]), Int32.Parse(Configuration["Custom:Height"]));
             Console.WriteLine($"Hello {Configuration.GetValue<string>("Profile:Username")}");
             //Console.WriteLine($"{}");
             Console.ReadKey();
