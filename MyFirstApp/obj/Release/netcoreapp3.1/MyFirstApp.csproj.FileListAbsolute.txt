@@ -1,0 +1,10 @@
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\bin\Release\netcoreapp3.1\MyFirstApp.exe
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\bin\Release\netcoreapp3.1\MyFirstApp.deps.json
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\bin\Release\netcoreapp3.1\MyFirstApp.runtimeconfig.json
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\bin\Release\netcoreapp3.1\MyFirstApp.runtimeconfig.dev.json
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\bin\Release\netcoreapp3.1\MyFirstApp.dll
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\bin\Release\netcoreapp3.1\MyFirstApp.pdb
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\obj\Release\netcoreapp3.1\MyFirstApp.AssemblyInfoInputs.cache
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\obj\Release\netcoreapp3.1\MyFirstApp.AssemblyInfo.cs
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\obj\Release\netcoreapp3.1\MyFirstApp.dll
+C:\Users\pinzart\source\repos\MyFirstApp\MyFirstApp\obj\Release\netcoreapp3.1\MyFirstApp.pdb
