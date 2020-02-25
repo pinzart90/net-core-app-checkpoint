@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pinzart\\source\\repos\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {}
+    "D:\\galvanize\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pinzart\\source\\repos\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {
+    "D:\\galvanize\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pinzart\\source\\repos\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
+        "projectUniqueName": "D:\\galvanize\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
         "projectName": "MyFirstApp",
-        "projectPath": "C:\\Users\\pinzart\\source\\repos\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
+        "projectPath": "D:\\galvanize\\MyFirstApp\\MyFirstApp\\MyFirstApp.csproj",
         "packagesPath": "C:\\Users\\pinzart\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pinzart\\source\\repos\\MyFirstApp\\MyFirstApp\\obj\\",
+        "outputPath": "D:\\galvanize\\MyFirstApp\\MyFirstApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,24 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
